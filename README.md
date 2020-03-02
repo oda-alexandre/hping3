@@ -7,7 +7,6 @@
 - [HPING3](#hping3)
   - [INDEX](#index)
   - [BADGES](#badges)
-  - [FIRST UPDATE](#first-update)
   - [INTRODUCTION](#introduction)
   - [PREREQUISITES](#prerequisites)
   - [INSTALL](#install)
@@ -16,10 +15,6 @@
 ## BADGES
 
 [![pipeline status](https://gitlab.com/oda-alexandre/hping3/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/HPING3/commits/master)
-
-## FIRST UPDATE
-
-Date: 01-01-01
 
 ## INTRODUCTION
 

@@ -10,6 +10,8 @@
   - [INTRODUCTION](#introduction)
   - [PREREQUISITES](#prerequisites)
   - [INSTALL](#install)
+    - [DOCKER RUN](#docker-run)
+    - [DOCKER COMPOSE](#docker-compose)
   - [LICENSE](#license)
 
 ## BADGES
@@ -24,7 +26,7 @@ Docker image of :
 
 Continuous integration on :
 
-- [gitlab](https://gitlab.com/oda-alexandre/hping3/pipelines)
+- [gitlab pipelines](https://gitlab.com/oda-alexandre/hping3/pipelines)
 
 Automatically updated on :
 
@@ -36,7 +38,23 @@ Use [docker](https://www.docker.com)
 
 ## INSTALL
 
-```docker run -ti --rm --name hping3 alexandreoda/hping3```
+### DOCKER RUN
+
+```docker run -ti --rm --name hping3 alexandreoda/hping3
+```
+
+### DOCKER COMPOSE
+
+```yml
+version: "3.7"
+
+services:
+  hping3:
+    container_name: hping3
+    image: alexandreoda/hping3
+    restart: no
+    privileged: false
+```
 
 ## LICENSE
 

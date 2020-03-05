@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  hping3:
+    container_name: hping3
+    image: alexandreoda/hping3
+    restart: no
+    privileged: false

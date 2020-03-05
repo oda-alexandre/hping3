@@ -41,7 +41,9 @@ Use [docker](https://www.docker.com)
 ### DOCKER RUN
 
 ```\
-docker  run -ti --rm --name hping3 alexandreoda/hping3
+docker run -ti --rm \
+--name hping3 \
+alexandreoda/hping3
 ```
 
 ### DOCKER COMPOSE

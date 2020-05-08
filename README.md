@@ -49,7 +49,7 @@ alexandreoda/hping3
 ### DOCKER COMPOSE
 
 ```yml
-version: "3.7"
+version: "2.0"
 
 services:
   hping3:
